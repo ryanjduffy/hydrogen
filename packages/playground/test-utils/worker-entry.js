@@ -1,9 +1,6 @@
 import {getAssetFromKV} from '@cloudflare/kv-asset-handler';
 
 export default function setup({handleRequest, indexTemplate}) {
-  // Mock Oxygen global
-  globalThis.Oxygen = {env: globalThis};
-
   function isAsset(url) {
     return /\.(png|jpe?g|gif|css|js|svg|ico|map)$/i.test(url.pathname);
   }

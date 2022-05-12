@@ -64,7 +64,7 @@ export default async function testCases({
     expect(await page.textContent('h1')).toContain('About');
   });
 
-  it('has access to environment variables', async () => {
+  it.only('has access to environment variables', async () => {
     await page.goto(getServerUrl() + '/env');
     expect(await page.textContent('h1')).toContain('Env');
 

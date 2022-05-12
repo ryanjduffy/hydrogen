@@ -16,8 +16,8 @@ export function getStorefrontApiRequestHeaders({
   const headers = {} as Record<string, any>;
 
   const secretToken =
-    typeof Oxygen !== 'undefined'
-      ? Oxygen?.env?.[OXYGEN_SECRET_TOKEN_ENVIRONMENT_VARIABLE]
+    typeof process !== 'undefined'
+      ? process?.env?.[OXYGEN_SECRET_TOKEN_ENVIRONMENT_VARIABLE]
       : null;
 
   /**
