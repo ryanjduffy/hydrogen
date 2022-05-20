@@ -67,3 +67,8 @@ jobs:
       - name: Run the template code tests
         run: yarn test:ci
         working-directory: ./templates/template-hydrogen-default
+
+      - name: Upload E2E Test Replays
+        uses: replayio/action-upload@v0.2.0
+        with:
+          apiKey: ${{ secrets.RECORD_REPLAY_API_KEY }}

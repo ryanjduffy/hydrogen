@@ -1883,6 +1883,24 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
+"@replayio/playwright@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@replayio/playwright/-/playwright-0.2.6.tgz#6c2d61dd821fa2e21a1dc831d029db014ca89592"
+  integrity sha512-96IaKcM7MJLT0V8fKGdkQ4GBHybySmQoATo9Iw318HEaUlK5yCfac+Iy2BfrVKvmkXu4vyUjWMQSFiagJP0lvg==
+  dependencies:
+    "@replayio/replay" "^0.3.0"
+    uuid "^8.3.2"
+
+"@replayio/replay@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@replayio/replay/-/replay-0.3.0.tgz#d15c5173685682b84ae0bb95d775a8f2c1dd6246"
+  integrity sha512-+21roEIqUKaLMvRQhe5VWR86zmUpm6WnASdV6iTBCPtVrX/wSNlcIWwAhe01+wCtl+4EGaejsQCkyITn0DxD9A==
+  dependencies:
+    commander "^7.2.0"
+    is-uuid "^1.0.2"
+    superstruct "^0.15.4"
+    ws "^7.5.0"
+
 "@rollup/plugin-graphql@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-graphql/-/plugin-graphql-1.1.0.tgz#492f579816f65bc21ce26394f2f140d95192622d"
@@ -7150,6 +7168,11 @@ is-upper-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 
+is-uuid@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/is-uuid/-/is-uuid-1.0.2.tgz#ad1898ddf154947c25c8e54966f48604e9caecc4"
+  integrity sha1-rRiY3fFUlHwlyOVJZvSGBOnK7MQ=
+
 is-weakref@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-weakref/-/is-weakref-1.0.1.tgz#842dba4ec17fa9ac9850df2d6efbc1737274f2a2"
@@ -11733,6 +11756,11 @@ sugarss@^2.0.0:
   integrity sha512-WfxjozUk0UVA4jm+U1d736AUpzSrNsQcIbyOkoE364GrtWmIrFdk5lksEupgWMD4VaT/0kVx1dobpiDumSgmJQ==
   dependencies:
     postcss "^7.0.2"
+
+superstruct@^0.15.4:
+  version "0.15.4"
+  resolved "https://registry.yarnpkg.com/superstruct/-/superstruct-0.15.4.tgz#e3381dd84ca07e704e19f69eda74eee1a5efb1f9"
+  integrity sha512-eOoMeSbP9ZJChNOm/9RYjE+F36rYR966AAqeG3xhQB02j2sfAUXDp4EQ/7bAOqnlJnuFDB8yvOu50SocvKpUEw==
 
 supports-color@^2.0.0:
   version "2.0.0"

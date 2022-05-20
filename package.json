@@ -94,5 +94,8 @@
   "resolutions": {
     "unified": "9.2.2"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "dependencies": {
+    "@replayio/playwright": "^0.2.6"
+  }
 }
